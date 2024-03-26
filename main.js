@@ -36,5 +36,8 @@ const maxLengthWarning = document.getElementById('max-length-warning');
         newRow.appendChild(telefoneCell);
 
         tbody.appendChild(newRow);
+
+        document.getElementById('nome-contato').value = '';
+        document.getElementById('numero-telefone').value = '';
         }
 
